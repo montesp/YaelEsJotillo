@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#17d69c"
+    tools:context="com.example.yaelhuerta.calculadoradefisica.Velocidad"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/frmla_velocidad"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:text="Distincia(d)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:id="@+id/txD" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/edD"
+        android:text="0" />
+
+    <TextView
+        android:text="Tiempo(t)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txT"
+        android:layout_weight="0.07" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/edT"
+        android:text="0" />
+
+    <TextView
+        android:text="Velocidad(v)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txV"
+        android:layout_weight="0.05" />
+
+    <TextView
+        android:text="Resultado"
+        android:layout_width="match_parent"
+        android:textSize="10pt"
+        android:layout_height="wrap_content"
+        android:id="@+id/txR"
+        android:layout_weight="0.44" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buC"
+        android:text="Calcular"
+        android:layout_weight="0.13" />
+
+    <Button
+        android:text="Limpiar"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buL"
+        android:layout_weight="0.07" />
+</LinearLayout>

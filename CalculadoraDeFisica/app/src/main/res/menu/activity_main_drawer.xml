@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/nav_pp"
+            android:icon="@android:drawable/ic_media_play"
+        android:title="Pantalla principal" />
+        <item
+            android:id="@+id/nav_ve"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="Velocidad" />
+        <item
+            android:id="@+id/nav_ace"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="Aceleracion" />
+
+        <item
+            android:id="@+id/nav_tv"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="Tiro Vertical" />
+        <item
+            android:id="@+id/nav_cl"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="Caida libre" />
+    </group>
+
+
+
+</menu>

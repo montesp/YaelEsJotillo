@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffc796"
+    tools:context="com.example.yaelhuerta.calculadoradefisica.TiroVertical"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:text="Velocidad Inicial (vi)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txVi3"
+        android:layout_weight="0.03" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/edVi3"
+        android:text="0" />
+
+    <TextView
+        android:text="Ingresa Altura(h)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txH3"
+        android:layout_weight="0.03" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/edH3"
+        android:text="0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:id="@+id/edHi"
+        android:text="Altura Inicial" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/edHi3"
+        android:text="0" />
+
+    <TextView
+        android:text="Tiempo (t)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txT3"
+        android:layout_weight="0.03" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/edT3"
+        android:text="0" />
+
+    <TextView
+        android:text="Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txR3"
+        android:layout_weight="0.37" />
+
+    <Button
+        android:text="Calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buC3"
+        android:layout_weight="0.03" />
+
+    <Button
+        android:text="Limpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buL3"
+        android:layout_weight="0.03" />
+</LinearLayout>

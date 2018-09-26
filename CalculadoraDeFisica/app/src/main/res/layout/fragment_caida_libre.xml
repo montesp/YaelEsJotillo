@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e39fea"
+    android:orientation="vertical"
+    tools:context="com.example.yaelhuerta.calculadoradefisica.CaidaLibre"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/form_cl"
+        android:id="@+id/imageView4" />
+
+    <TextView
+        android:text="SOLO INGRESA LA VELOCIDAD FINAL O TIEMPO(Ingresar almenos un dato, dejar en 0 los que se desconocen)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txI"
+        android:layout_weight="0.10" />
+
+    <TextView
+        android:text="Ingresa Tiempo (t)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txT2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/edT2"
+        android:text="0" />
+
+    <TextView
+        android:text="Ingresa la velocidad final (vf)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txVf2"
+        android:layout_weight="0.02" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/edVf2"
+        android:layout_weight="0.02"
+        android:text="0" />
+
+    <TextView
+        android:text="Ingresa la altura (h)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txH"
+        android:layout_weight="0.02" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/edH"
+        android:layout_weight="0.02"
+        android:text="0" />
+
+    <TextView
+        android:text="Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txR2"
+        android:layout_weight="0.83" />
+
+    <Button
+        android:text="Calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buC2" />
+
+    <Button
+        android:text="Limpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buL2" />
+
+</LinearLayout>

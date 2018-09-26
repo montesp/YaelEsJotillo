@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#58c5d6"
+    tools:context="com.example.yaelhuerta.calculadoradefisica.Aceleracion"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:layout_width="413dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/frmla_acelaracion"
+        android:id="@+id/imageView3" />
+
+    <TextView
+        android:text="Velocidad Final (vf)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txVf"
+        android:layout_weight="0.03" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/edVf"
+        android:text="0" />
+
+    <TextView
+        android:text="Velocidad Inicial (Vi)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txVi"
+        android:layout_weight="0.04" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/edVi"
+        android:text="0" />
+
+    <TextView
+        android:text="Tiempo (t)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txT"
+        android:layout_weight="0.06" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/edT1"
+        android:text="0" />
+
+    <TextView
+        android:text="Aceleracion (a)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txA"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:text="Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txR1"
+        android:textSize="20dp"
+        android:layout_weight="0.58" />
+
+    <Button
+        android:text="Calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buC1"
+        android:layout_weight="0.13" />
+
+    <Button
+        android:text="Limpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buL1" />
+</LinearLayout>
